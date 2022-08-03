@@ -5,6 +5,4 @@ import (
 )
 
 func main() {
-	ac := pattern.NewActionManager("", "", "", "", "")
-	ac.WriteAction()
 }

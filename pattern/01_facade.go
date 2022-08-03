@@ -77,3 +77,10 @@ func NewActionManager(filepath, Dbtype, Dbname, UserName, Password string) *Acti
 		ds: newDoSomeAction(),
 	}
 }
+
+// ac := pattern.NewActionManager("", "", "", "", "")
+// ac.WriteAction()
+// OUT:
+// Do Some Action
+// Writed in File
+// Writed in DB
